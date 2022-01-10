@@ -1,0 +1,17 @@
+td{
+    border: 2px solid grey;
+    padding: 0 20px;
+
+}
+table{
+    border-collapse: collapse;
+}
+thead{
+    font-weight: 700;
+    color: honeydew;
+    background-color: indianred;
+}
+tr:hover{
+    color: indigo;
+    background-color: lightslategray;
+}

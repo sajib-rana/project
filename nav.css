@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+    color: black;
+
+}
+nav li{
+    list-style: none;
+    padding: 5px 20px;
+    font-weight: 700;
+}
+nav li:hover{
+ background-color: blueviolet;
+ 
+}
+nav>ul{
+    display: flex;
+}
+.dropdown{
+   display: none; 
+   position: absolute;
+   background-color: lightyellow;
+   padding: 0;
+}
+ nav >ul>li:hover>ul{
+     display: block;
+ }
